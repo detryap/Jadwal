@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonxir3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonxir1"
+        android:layout_alignStart="@+id/buttonxir1"
+        android:layout_below="@+id/buttonxir1"
+        android:layout_marginTop="17dp"
+        android:text="XIR3" />
+
+    <Button
+        android:id="@+id/buttonxir5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonxir3"
+        android:layout_alignStart="@+id/buttonxir3"
+        android:layout_below="@+id/buttonxir3"
+        android:layout_marginTop="20dp"
+        android:text="XIR5" />
+
+    <Button
+        android:id="@+id/buttonxir6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonxir4"
+        android:layout_alignStart="@+id/buttonxir4"
+        android:layout_alignTop="@+id/buttonxir5"
+        android:text="XIR6" />
+
+    <Button
+        android:id="@+id/buttonxit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonxir5"
+        android:layout_alignRight="@+id/buttonxir5"
+        android:layout_below="@+id/buttonxir5"
+        android:layout_marginTop="24dp"
+        android:text="XIT1" />
+
+    <Button
+        android:id="@+id/buttonxit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonxir6"
+        android:layout_alignStart="@+id/buttonxir6"
+        android:layout_alignTop="@+id/buttonxit1"
+        android:text="XIT2" />
+
+    <Button
+        android:id="@+id/buttonxit5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonxit3"
+        android:layout_alignStart="@+id/buttonxit3"
+        android:layout_below="@+id/buttonxit3"
+        android:layout_marginTop="23dp"
+        android:text="XIT5" />
+
+    <Button
+        android:id="@+id/buttonxir4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonxir3"
+        android:layout_alignBottom="@+id/buttonxir3"
+        android:layout_alignLeft="@+id/buttonxir2"
+        android:layout_alignStart="@+id/buttonxir2"
+        android:text="XIR4" />
+
+    <Button
+        android:id="@+id/buttonxir2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonxir1"
+        android:layout_alignBottom="@+id/buttonxir1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:text="XIR2" />
+
+    <Button
+        android:id="@+id/buttonxit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonxit3"
+        android:layout_alignBottom="@+id/buttonxit3"
+        android:layout_alignLeft="@+id/buttonxit2"
+        android:layout_alignStart="@+id/buttonxit2"
+        android:text="XIT4" />
+
+    <Button
+        android:id="@+id/buttonxir1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="38dp"
+        android:text="XIR1" />
+
+    <Button
+        android:id="@+id/buttonxit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonxit1"
+        android:layout_alignStart="@+id/buttonxit1"
+        android:layout_below="@+id/buttonxit1"
+        android:layout_marginTop="21dp"
+        android:text="XIT3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonxir2"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+</RelativeLayout>
