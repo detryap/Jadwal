@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Jadwal</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Beranda</string>
+    <string name="nav_item_jadwal">Jadwal</string>
+    <string name="nav_item_pengumuman">Pengumuman</string>
+    <string name="nav_item_pengingat">Pengingat</string>
+
+    <!--NAVIGATION DRAWER ITEM LABELS-->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_jadwal</item>
+        <item>@string/nav_item_pengumuman</item>
+        <item>@string/nav_item_pengingat</item>
+    </string-array>
+
+    <string name="title_reminder">Pengingat</string>
+    <string name="title_announcement">Pengumuman</string>
+    <string name="title_schedule">Jadwal</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_activity_nav_drawer_item">NavDrawerItem</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
